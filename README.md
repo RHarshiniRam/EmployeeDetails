@@ -1,7 +1,7 @@
 # EmployeeDetails
 To print employee details
 import java.util.*;
-class employeedetails
+public class employeedetails
 {
      String employeid,empname, empemail,empaddress;
      public void read()
@@ -18,7 +18,7 @@ class employeedetails
      }
      public void display()  
      {
-        System.out.println("Employee Id  :"+employeid+"n"+"Employee Name  : "+empname+"n"+"Employee email :"+empemail+"n"+"Employee Address :"+empaddress);
+        System.out.println("Employee Id  :"+employeid+"n"+"Employee Name  : "+empname+"n"+"Employee email :"+empemail+"n"+"Employee Address:"+empaddress);
      }
 }
 class main
